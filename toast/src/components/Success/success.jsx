@@ -21,8 +21,8 @@ export function Success() {
         {message}
       </div>
       <div className={style['button-container']}>
-        <button onClick={() => showSuccessMessage('This is a SUCCESS!')}>
-         Show Success thingy!
+        <button onClick={() => showSuccessMessage('This is a SUCCESS! Yay!')}>
+         Show Success Toast!
         </button>
       </div>
     </>

@@ -21,7 +21,7 @@ export function Error() {
         {message}
       </div>
       <div className={style['button-container']}>
-        <button onClick={() => showErrorMessage('This is a error!')}>
+        <button onClick={() => showErrorMessage('This is an error!')}>
          Show Error
         </button>
       </div>

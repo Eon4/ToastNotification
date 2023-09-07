@@ -2,10 +2,10 @@
 
 .warning-container {
     position: fixed;
-    top: 500px; /* Adjust the distance from the bottom of the screen */
-    right: 60%; /* Center horizontally */
+    top: 500px; 
+    right: 60%; 
     transform: translateX(-50%);
-    width: 300px; /* Adjust the width as needed */
+    width: 300px; 
     background-color: #333;
     color: #fff;
     padding: 12px;
@@ -17,8 +17,6 @@
     opacity: 0;
     visibility: hidden;
   }
-  
-  /* ... rest of your CSS ... */
   
   
   .show-warning {
