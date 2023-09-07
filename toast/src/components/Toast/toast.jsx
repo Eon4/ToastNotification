@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import style from './toast.module.scss';
 
 export function Toast() {
@@ -23,7 +23,7 @@ export function Toast() {
         {message}
       </div>
       <div className={style['button-container']}>
-        <button onClick={() => showToastMessage('This is a toast notification!')}>
+        <button onClick={() => showToastMessage('This is a toast notification!🍞')}>
           Show Toast
         </button>
       </div>
